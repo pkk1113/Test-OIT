@@ -8,4 +8,4 @@ OIT(Order Independent Transparency) 구현 예시입니다.
 >
 > 본 프로젝트에서는 peering 기법을 사용하여 구현하였다.
 
-<img src="doc/result.png" width="800" />
+<img src="https://github.com/pkk1113/Test-OIT/blob/master/doc/result.PNG" width="800" />
