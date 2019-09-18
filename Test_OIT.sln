@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_OIT", "Test_OIT\Test_OIT.vcxproj", "{C895B1FA-7F4D-45B5-9F27-42F2971217AF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{868C747F-E4D5-413A-A8AE-19A4F6A5AE1F}"
+	ProjectSection(SolutionItems) = preProject
+		doc\result.PNG = doc\result.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
