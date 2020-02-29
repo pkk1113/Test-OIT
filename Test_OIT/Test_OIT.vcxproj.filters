@@ -9,9 +9,18 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="resources">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="resources\shaders">
+      <UniqueIdentifier>{6776252e-e173-410d-b882-c961d459c533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures">
+      <UniqueIdentifier>{8e4aab4c-7911-466b-92d2-f6848f13ecc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\objects">
+      <UniqueIdentifier>{8ad045f3-11a7-4403-ae99-6fc2c93cd9ca}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -29,5 +38,56 @@
     <ClInclude Include="OITRenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="resources\Objects\ball.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="resources\Objects\cylinder.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="resources\Objects\fish.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="resources\Objects\monkey.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="resources\Objects\monkey_45.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="resources\Objects\stanford_bunny.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="resources\Objects\stanford_bunny_scaled.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+    <Object Include="resources\Objects\test.obj">
+      <Filter>resources\objects</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\Textures\help.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Shaders\blend.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="resources\Shaders\blend.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="resources\Shaders\peel.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="resources\Shaders\peel.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="resources\Shaders\quad.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="resources\Shaders\quad.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
